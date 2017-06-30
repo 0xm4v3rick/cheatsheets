@@ -41,7 +41,7 @@ docker rmi _image_\__id_
 **Build image from Dockerfile [note the dot at the end]**  
 docker build -t _image_\__tag_ .  
 
-**Bash shell on active/running container in case of Linux distro **  
+**Bash shell on active/running container in case of Linux distro**  
 **[default user privileges]**  
 docker exec -it _container_\__name_ bash  
 **[root privileges]**  
